@@ -1,3 +1,6 @@
 <RCC>
-    <qresource prefix="/Gamepad"/>
+    <qresource prefix="/Gamepad">
+        <file>GamepadDelegate.qml</file>
+        <file>Config.qml</file>
+    </qresource>
 </RCC>

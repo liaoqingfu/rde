@@ -99,8 +99,8 @@ void LibraryModel::filterReady()
 /*                                                                                               */
 QString LibraryModel::getQuery()
 {
-    //return "SELECT module,name FROM games WHERE title like \"%"+m_filter+"%\" ORDER BY title LIMIT 100";
-    return "SELECT module,name FROM games WHERE title like \"%"+m_filter+"%\" ORDER BY title";
+    return "SELECT module,name FROM games WHERE title like \"%"+m_filter+"%\" ORDER BY title LIMIT 10";
+    //return "SELECT module,name FROM games WHERE title like \"%"+m_filter+"%\" ORDER BY title";
 }
 /*                                                                                               */
 void LibraryModel::setCurrentIndex(const int &index)

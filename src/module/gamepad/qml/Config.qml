@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import org.rde.gamepad 1.0
 import org.rde.ui 1.0
-AbstractPage{
+Item{
     ListView{
         id:gamepadView
         anchors{top:parent.top;bottom:parent.bottom;left:parent.left}

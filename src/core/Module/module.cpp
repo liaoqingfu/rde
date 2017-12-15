@@ -83,11 +83,13 @@ bool Module::createUserInterface()
             return true;
         }
         qDebug() << "Creating dock for " << m_iid;
+        return true;
         break;
     }
     case ModuleInterface::Icon:TrayModel::addIcon(this);break;
     case ModuleInterface::Configure:
         qDebug() << "Creating configure for " << m_iid;
+        return true;
         break;
     }
 }

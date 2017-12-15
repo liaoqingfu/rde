@@ -11,27 +11,28 @@ DEFINES += BLUETOOTH_LIBRARY
 DESTDIR = ../../modules
 #--------------------------------------------------------------------------------------------------
 HEADERS += bluetooth_global.h \
-    ProviderDevice.h \
-    bluetooth.h \
-    devicemanager.h \
-    device.h \
-    devicemodel.h \
-    Model.h \
-    adapter.h
-SOURCES += bluetooth.cpp \
-    devicemanager.cpp \
-    device.cpp \
-    devicemodel.cpp \
-    adapter.cpp
+    bluetooth.h
+    #ProviderDevice.h \
+
+    #devicemanager.h \
+    #device.h \
+    #devicemodel.h \
+    #Model.h \
+    #adapter.h
+SOURCES += bluetooth.cpp
+    #devicemanager.cpp \
+    #device.cpp \
+    #devicemodel.cpp \
+    #adapter.cpp
 #--[INCLUDES]--------------------------------------------------------------------------------------
-include(AudioVideoDevice/AudioVideoDevice.pri)
-include(ComputerDevice/ComputerDevice.pri)
-include(HealthDevice/HealthDevice.pri)
-include(ImagingDevice/ImagingDevice.pri)
-include(PeripheralDevice/PeripheralDevice.pri)
-include(PhoneDevice/PhoneDevice.pri)
-include(ToyDevice/ToyDevice.pri)
-include(WearableDevice/WearableDevice.pri)
+#include(AudioVideoDevice/AudioVideoDevice.pri)
+#include(ComputerDevice/ComputerDevice.pri)
+#include(HealthDevice/HealthDevice.pri)
+#include(ImagingDevice/ImagingDevice.pri)
+#include(PeripheralDevice/PeripheralDevice.pri)
+#include(PhoneDevice/PhoneDevice.pri)
+#include(ToyDevice/ToyDevice.pri)
+#include(WearableDevice/WearableDevice.pri)
 #--[RESOURCES]-------------------------------------------------------------------------------------
 RESOURCES+=qml/qml.qrc
 OTHER_FILES += metadata.json

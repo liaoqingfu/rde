@@ -1,10 +1,10 @@
-import QtQuick 2.0
+import QtQuick 2.2
 import org.rde.ui 1.0
 import org.rde.gaming 1.0
 ListView{
     anchors{fill:parent;leftMargin:40;rightMargin:40}
     model:LibraryModel{}
-    delegate: GameListDelegate{}
+    delegate:GameListDelegate{}
     focus:true
     snapMode: ListView.SnapToItem
     boundsBehavior: Flickable.StopAtBounds
@@ -43,11 +43,11 @@ ListView{
         //onGameSelected:Voice.say(gameList.model.title)
         //onTitleChanged:Voice.say(title)
     }
-    Connections{
-        target: gameWindow
-        onGameStarted:gamePadConnections.enabled=false
-        onGameStopped:gamePadConnections.enabled=true
-    }
+//    Connections{
+//        target: gameWindow
+//        onGameStarted:gamePadConnections.enabled=false
+//        onGameStopped:gamePadConnections.enabled=true
+//    }
     //    Connections{
     //        id:gamePadConnections
     //        target:Gamepad
@@ -74,7 +74,7 @@ ListView{
         glow.source=currentItem.logo;
         //selectSound.play()
 
-        gameList.model.currentIndex=currentIndex;
+        //gameList.model.currentIndex=currentIndex;
     }
 
     TextGlow{
