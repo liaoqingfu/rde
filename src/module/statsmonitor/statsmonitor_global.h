@@ -1,0 +1,9 @@
+#ifndef STATSMONITOR_GLOBAL_H
+#define STATSMONITOR_GLOBAL_H
+#include <QtCore/qglobal.h>
+#if defined(STATSMONITOR_LIBRARY)
+#  define STATSMONITORSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define STATSMONITORSHARED_EXPORT Q_DECL_IMPORT
+#endif
+#endif

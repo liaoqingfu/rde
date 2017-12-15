@@ -1,0 +1,5 @@
+{
+    "Description":"Manages and establishes network connections",
+    "Version"    :"1.0",
+    "Icon"       :"network-manager"
+}

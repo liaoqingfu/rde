@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Network">
+        <file>Window.qml</file>
+        <file>Dock.qml</file>
+    </qresource>
+</RCC>

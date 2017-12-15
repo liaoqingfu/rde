@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/StatsMonitor">
+        <file>Dock.qml</file>
+        <file>StatBar.qml</file>
+    </qresource>
+</RCC>

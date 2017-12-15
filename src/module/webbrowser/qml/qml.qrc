@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/WebBrowser">
+        <file>Dock.qml</file>
+        <file>Window.qml</file>
+    </qresource>
+</RCC>

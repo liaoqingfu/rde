@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Console">
+        <file>Main.qml</file>
+        <file>Window.qml</file>
+    </qresource>
+</RCC>

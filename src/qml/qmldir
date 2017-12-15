@@ -1,0 +1,58 @@
+module org.rde.ui
+
+RBar 1.0 ui/RBar.qml
+RButton 1.0 ui/RButton.qml
+RIcon 1.0 ui/RIcon.qml
+RList 1.0 ui/RList.qml
+RListDelegate 1.0 ui/RListDelegate.qml
+RPathBar 1.0 ui/RPathBar.qml
+RRowDelegate 1.0 ui/RRowDelegate.qml
+RTabBar 1.0 ui/RTabBar.qml
+RTabButton 1.0 ui/RTabButton.qml
+RTableHeader 1.0 ui/RTableHeader.qml
+RToolBar 1.0 ui/RToolBar.qml
+RText 1.0 ui/RText.qml
+
+Background 1.0 ui/Background.qml
+IconShadow 1.0 ui/IconShadow.qml
+
+InfoDisplay 1.0 ui/InfoDisplay.qml
+SearchBox 1.0 ui/SearchBox.qml
+LoadFader 1.0 ui/LoadFader.qml
+Header 1.0 ui/Header.qml
+InfoBar 1.0 ui/InfoBar.qml
+TempArena 1.0 Spright/TempArena.qml
+TempTray 1.0 ui/TempTray.qml
+TextGlow 1.0 ui/TextGlow.qml
+TableStyle 1.0 ui/TableStyle.qml
+CyberFrame 1.0 ui/Frame.qml
+ListHighlight 1.0 ui/ListHighlight.qml
+#ProgressBar 1.0 ui/ProgressBar.qml
+
+#--TEMP STUFF
+TempConfigureWindow 1.0 Config/Window.qml
+TempBluetoothMain 1.0 Bluetooth/Main.qml
+TempBluetoothWindow 1.0 Bluetooth/Window.qml
+TempClockMain 1.0 Clock/Main.qml
+TempClockWindow 1.0 Clock/Window.qml
+TempScreensaverPanel 1.0 Display/ScreensaverPanel.qml
+TempErrorWindow 1.0 Error/Window.qml
+TempFileManagerMain 1.0 FileManager/Main.qml
+TempFileManagerWindow 1.0 FileManager/Window.qml
+TempNetworkMain 1.0 Network/Main.qml
+TempNetworkWindow 1.0 Network/Window.qml
+TempVoiceWindow 1.0 Voice/Window.qml
+TempConsoleMain 1.0 Console/Main.qml
+TempConsoleWindow 1.0 Console/Window.qml
+TempGamingMain 1.0 Gaming/Main.qml
+TempGamingWindow 1.0 Gaming/Window.qml
+TempWebBrowserMain 1.0 WebBrowser/Main.qml
+TempWebBrowserWindow 1.0 WebBrowser/Window.qml
+TempMediaPlayer 1.0 MediaPlayer/Dock.qml
+TempMediaPlayerWindow 1.0 MediaPlayer/Window.qml
+TempPlaylist 1.0 MediaPlayer/PlaylistPanel.qml
+TempLib 1.0 MediaPlayer/Lib.qml
+
+TempSecurityWindow 1.0 Security/Window.qml
+
+TempGamepad 1.0 Gamepad/Gamepad.qml

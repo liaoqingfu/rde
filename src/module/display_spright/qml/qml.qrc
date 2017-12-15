@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Spright">
+        <file>Arena.qml</file>
+        <file>SpriteList.qml</file>
+        <file>SpriteDelegate.qml</file>
+    </qresource>
+</RCC>

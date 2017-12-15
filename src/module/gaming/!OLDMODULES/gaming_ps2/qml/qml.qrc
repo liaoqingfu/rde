@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/ps2">
+        <file>config.qml</file>
+        <file>info.qml</file>
+        <file>settings.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Launcher">
+        <file>Dock.qml</file>
+        <file>Delegate.qml</file>
+        <file>Grid.qml</file>
+    </qresource>
+</RCC>

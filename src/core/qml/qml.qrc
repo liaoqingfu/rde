@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/rde">
+        <file>ControlBox.qml</file>
+        <file>ErrorWindow.qml</file>
+        <file>ShutdownWindow.qml</file>
+        <file>Dock.qml</file>
+        <file>Desktop.qml</file>
+        <file>MainWindow.qml</file>
+        <file>ConfigureWindow.qml</file>
+        <file>Tray.qml</file>
+        <file>TrayDelegate.qml</file>
+    </qresource>
+    <qresource prefix="/rde/config"/>
+</RCC>

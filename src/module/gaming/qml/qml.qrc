@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Gaming">
+        <file>Window.qml</file>
+    </qresource>
+    <qresource prefix="/Gaming/config"/>
+</RCC>

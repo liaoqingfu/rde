@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Voice">
+        <file>Dock.qml</file>
+        <file>Window.qml</file>
+        <file>EngineDelegate.qml</file>
+        <file>VoiceTable.qml</file>
+        <file>VoiceDelegate.qml</file>
+        <file>SettingsPanel.qml</file>
+        <file>LanguageView.qml</file>
+        <file>EngineView.qml</file>
+        <file>LanguageDelegate.qml</file>
+        <file>SliderPanel.qml</file>
+    </qresource>
+</RCC>

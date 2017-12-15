@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Bluetooth">
+        <file>Dock.qml</file>
+        <file>Window.qml</file>
+    </qresource>
+</RCC>

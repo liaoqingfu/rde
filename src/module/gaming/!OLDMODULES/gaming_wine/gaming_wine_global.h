@@ -1,0 +1,9 @@
+#ifndef GAMING_WINE_GLOBAL_H
+#define GAMING_WINE_GLOBAL_H
+#include <QtCore/qglobal.h>
+#if defined(GAMING_WINE_LIBRARY)
+#  define GAMING_WINESHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define GAMING_WINESHARED_EXPORT Q_DECL_IMPORT
+#endif
+#endif

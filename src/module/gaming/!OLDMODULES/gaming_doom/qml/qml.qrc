@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/doom">
+        <file>Launch.qml</file>
+        <file>MapDelegate.qml</file>
+        <file>MapView.qml</file>
+        <file>ModView.qml</file>
+        <file>RList.qml</file>
+        <file>ModDelegate.qml</file>
+    </qresource>
+</RCC>

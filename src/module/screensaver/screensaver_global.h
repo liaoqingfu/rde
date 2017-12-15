@@ -1,0 +1,9 @@
+#ifndef SCREENSAVER_GLOBAL_H
+#define SCREENSAVER_GLOBAL_H
+#include <QtCore/qglobal.h>
+#if defined(SCREENSAVER_LIBRARY)
+#  define SCREENSAVERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define SCREENSAVERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+#endif

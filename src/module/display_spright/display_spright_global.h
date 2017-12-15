@@ -1,0 +1,9 @@
+#ifndef DISPLAY_SPRIGHT_GLOBAL_H
+#define DISPLAY_SPRIGHT_GLOBAL_H
+#include <QtCore/qglobal.h>
+#if defined(DISPLAY_LIBRARY)
+#  define DISPLAY_SPRIGHT_SHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define DISPLAY_SPRIGHT_SHARED_EXPORT Q_DECL_IMPORT
+#endif
+#endif

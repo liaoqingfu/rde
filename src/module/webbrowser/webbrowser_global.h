@@ -1,0 +1,9 @@
+#ifndef WEBBROWSER_GLOBAL_H
+#define WEBBROWSER_GLOBAL_H
+#include <QtCore/qglobal.h>
+#if defined(WEBBROWSER_LIBRARY)
+#  define WEBBROWSERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define WEBBROWSERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+#endif

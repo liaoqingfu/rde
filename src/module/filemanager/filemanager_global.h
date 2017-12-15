@@ -1,0 +1,9 @@
+#ifndef FILEMANAGER_GLOBAL_H
+#define FILEMANAGER_GLOBAL_H
+#include <QtCore/qglobal.h>
+#if defined(FILEMANAGER_LIBRARY)
+#  define FILEMANAGERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define FILEMANAGERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+#endif

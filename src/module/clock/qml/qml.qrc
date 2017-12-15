@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Clock">
+        <file>Dock.qml</file>
+        <file>Window.qml</file>
+        <file>CalendarView.qml</file>
+        <file>EventList.qml</file>
+        <file>TimeDateDisplay.qml</file>
+    </qresource>
+</RCC>

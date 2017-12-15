@@ -1,0 +1,9 @@
+#ifndef GAMING_DOOM_GLOBAL_H
+#define GAMING_DOOM_GLOBAL_H
+#include <QtCore/qglobal.h>
+#if defined(GAMING_DOOM_LIBRARY)
+#  define GAMING_DOOMSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define GAMING_DOOMSHARED_EXPORT Q_DECL_IMPORT
+#endif
+#endif

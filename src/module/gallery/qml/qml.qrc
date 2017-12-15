@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Gallery">
+        <file>Main.qml</file>
+        <file>ImageGrid.qml</file>
+        <file>Delegate.qml</file>
+        <file>ImageViewer.qml</file>
+    </qresource>
+</RCC>
